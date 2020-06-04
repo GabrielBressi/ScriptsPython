@@ -11,7 +11,7 @@ print("""[ 0 ] Pedra
 answer = ''
 
 while answer != 'N':
-    computer = randint(0, 3)
+    computer = randint(0, 2)
     option = int(input('Digite sua opção: '))
 
     while option != 0 and option != 1 and option != 2:
